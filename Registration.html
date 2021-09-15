@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="Registration.png" type="image/x-icon">
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://kit.fontawesome.com/1f6a613264.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="registration-js.js"></script>
+</head>
+
+<body>
+
+    <form accept="" method="">
+
+        <div class="container">
+            
+            <!-- Name of the organization -->
+            <h1>COMPANY NAME</h1><br>
+
+            <!-- Heading -->
+            <h2>CREATE AN ACCOUNT</h2><br>
+
+            <!-- Below tag is for a button which redirects to a different page where you can login using your social media accounts  -->
+            <button type="button" class="Lsm"><a href="Socailmedia.html">Login with Social media</a> </button>
+
+            <h4>OR</h4>
+            
+            <!-- Registration details input field -->
+            <div class="text-field">
+
+                <input type="text" class="input-box" name="name" placeholder="Name" rows="" required><br><br>
+                <input type="text" class="input-box" name="username" placeholder="Username" required><br><br>
+                <input type="email" class="input-box" name="email" placeholder="Email" required><br><br>
+                <input type="password" class="input-box" name="password" placeholder="Password" required><br><br>
+                <input type="password" class="input-box" name="password1" placeholder="Confrim password" required><br><br>
+                <input type="text" class="input-box" name="mobile" placeholder="Mobile" required><br><br>
+
+            </div>
+
+            <!-- Submit button -->
+            <div>
+                <input type="submit" class="submit" value="SUBMIT" onclick="validate()"><br><br>
+            </div>
+            
+            <!-- Sign in button which redirects to login page -->
+            <button type="button" class="new-page"><a href="Login.html">Already have an account? Sign In</a> </button>
+        </div>
+        
+        <!-- Button to skip the registration and visit the website without having to register -->
+        <button type="button" class="website"><a href="https://www.bookgeeks.in/">Skip registration temporarily</a>
+        </button>
+
+    </form>
+
+</body>
+
+</html>
